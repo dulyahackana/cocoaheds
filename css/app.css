@@ -74,14 +74,17 @@ footer {
   font-family: 'MuseoSansCyrl-700';
 }
 
-.slogan-description {
+.slogan-description{
   display: block;
-  font-size: 20px;
-  width: 600px;
+  font-size: 18px;
+  width: 944px;
   margin: 0 auto;
-  margin-top: 45px;
+  margin-top: 85px;
   line-height: 27px;
   font-family: 'MuseoSansCyrl-500';
+}
+.slogan-description a{
+  color: #fff;
 }
 
 .heart {
@@ -97,7 +100,7 @@ footer {
   width: 36px;
   height: 17px;
   margin: 0 auto;
-  margin-top: 210px;
+  margin-top: 110px;
   cursor: pointer;
 }
 
@@ -168,7 +171,7 @@ footer {
   padding-bottom: 5px;
 }
 
-.speakerUnit-company {
+.speakerUnit-company, .speakerUnit-company a {
   font-size: 12px;
   color: #239DD8;
 }
