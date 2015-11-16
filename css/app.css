@@ -12,12 +12,12 @@ header {
           background-size: cover;
 }
 
-footer {
+section.video {
   background: url('/assets/images/bottom_bg.png');
   -webkit-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
-  height: 400px;
+  height: 650px;
   padding-top: 80px;
 }
 
@@ -332,7 +332,18 @@ footer {
   height: 50px;
   margin-top: 20px;
 }
-
+  .video-title{
+    font-family: 'MuseoSansCyrl-500';
+    font-size: 36px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .video-body{
+    padding-top: 50px;
+    width: 853px;
+    margin: 0 auto;
+  }
 
 .register {
   cursor: pointer;
@@ -357,7 +368,7 @@ footer {
   font-size: 10px;
   margin: 0 auto;
   width: 225px;
-  margin-top: 126px;
+  margin-top: 16px;
   text-align: center;
 }
 
